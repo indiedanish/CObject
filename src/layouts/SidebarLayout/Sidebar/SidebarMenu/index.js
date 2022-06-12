@@ -203,25 +203,17 @@ function SidebarMenu() {
 
         }}
       >
-        <img
-          style={{
-            height: '100px',
-            width: '100px',
-            borderRadius: '50%',
-            backgroundColor: 'black',
-            
-          }}
-          src="https://issm.ai/wp-content/uploads/2021/09/%D8%A7.png"
-          alt="new"
-        />
+        
       </div>
 
      
 
       <MenuWrapper>
+      <div style={{color: 'black', marginLeft: '25px', fontWeight: 'bold'}} >WORKSPACE</div>
         <List component="div">
           <SubMenuWrapper>
             <List component="div">
+              
               <ListItem component="div" style={{backgroundColor:'black',  borderRadius: '10px', }} >
                 <Button
                 style={{color: 'white'}}
@@ -235,60 +227,90 @@ function SidebarMenu() {
                                   Overview
                 </Button>
                 
-              </ListItem>
-
-              <ListItem component="div">
-                <Button
-                // disableRipple
-                // component={RouterLink}
-                // onClick={closeSidebar}
-                // to="/login"
-                // startIcon={<DesignServicesTwoToneIcon />}
-                >
-                  Upload
-                </Button>
                 
               </ListItem>
 
-              <ListItem component="div">
+              <ListItem component="div" style={{backgroundColor:'white',marginTop: '10px',  borderRadius: '10px', }} >
                 <Button
+                
+                
                 // disableRipple
                 // component={RouterLink}
                 // onClick={closeSidebar}
                 // to="/login"
                 // startIcon={<DesignServicesTwoToneIcon />}
                 >
-                  Anotate
+                                + Add Workspace
                 </Button>
                 
-              </ListItem>
-
-              <ListItem component="div">
-                <Button
-                // disableRipple
-                // component={RouterLink}
-                // onClick={closeSidebar}
-                // to="/login"
-                // startIcon={<DesignServicesTwoToneIcon />}
-                >
-                  Classes
-                </Button>
                 
               </ListItem>
 
               
-              <ListItem component="div">
+
+            </List>
+          </SubMenuWrapper>
+        </List>
+
+        <div style={{color: 'black', marginLeft: '25px', fontWeight: 'bold'}} >RESOURCES</div>
+
+        <List component="div">
+          <SubMenuWrapper>
+            <List component="div">
+              
+              
+
+              <ListItem component="div" style={{backgroundColor:'white',  borderRadius: '10px', }} >
                 <Button
+                
+                
                 // disableRipple
                 // component={RouterLink}
                 // onClick={closeSidebar}
                 // to="/login"
                 // startIcon={<DesignServicesTwoToneIcon />}
                 >
-                  Documentation
+                              Pre-built Applications
                 </Button>
                 
+                
               </ListItem>
+
+              <ListItem component="div" style={{backgroundColor:'white',  borderRadius: '10px', }} >
+                <Button
+                
+                
+                // disableRipple
+                // component={RouterLink}
+                // onClick={closeSidebar}
+                // to="/login"
+                // startIcon={<DesignServicesTwoToneIcon />}
+                >
+                              Documentation
+                </Button>
+                
+                
+              </ListItem>
+
+              <ListItem component="div" style={{backgroundColor:'white',  borderRadius: '10px', }} >
+                <Button
+                
+                
+                // disableRipple
+                // component={RouterLink}
+                // onClick={closeSidebar}
+                // to="/login"
+                // startIcon={<DesignServicesTwoToneIcon />}
+                >
+                              Pre-built Applications
+                </Button>
+                
+                
+              </ListItem>
+
+
+              
+
             </List>
           </SubMenuWrapper>
         </List>

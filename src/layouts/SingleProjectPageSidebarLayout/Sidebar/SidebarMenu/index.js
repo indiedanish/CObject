@@ -194,13 +194,11 @@ function SidebarMenu() {
     <>
       <div
         style={{
-        
           display: 'flex',
           flexDirection: 'column',
           justifyContent: 'center',
           alignItems: 'center',
           marginTop: '20px'
-
         }}
       >
         <img
@@ -208,33 +206,32 @@ function SidebarMenu() {
             height: '100px',
             width: '100px',
             borderRadius: '50%',
-            backgroundColor: 'black',
-            
+            backgroundColor: 'black'
           }}
           src="https://issm.ai/wp-content/uploads/2021/09/%D8%A7.png"
           alt="new"
         />
       </div>
 
-     
-
       <MenuWrapper>
         <List component="div">
           <SubMenuWrapper>
             <List component="div">
-              <ListItem component="div" style={{backgroundColor:'black',  borderRadius: '10px', }} >
+              <ListItem
+                component="div"
+                style={{ backgroundColor: 'black', borderRadius: '10px' }}
+              >
                 <Button
-                style={{color: 'white'}}
-                
-                // disableRipple
-                // component={RouterLink}
-                // onClick={closeSidebar}
-                // to="/login"
-                // startIcon={<DesignServicesTwoToneIcon />}
+                  style={{ color: 'white' }}
+
+                  // disableRipple
+                  // component={RouterLink}
+                  // onClick={closeSidebar}
+                  // to="/login"
+                  // startIcon={<DesignServicesTwoToneIcon />}
                 >
-                                  Overview
+                  Overview
                 </Button>
-                
               </ListItem>
 
               <ListItem component="div">
@@ -247,7 +244,6 @@ function SidebarMenu() {
                 >
                   Upload
                 </Button>
-                
               </ListItem>
 
               <ListItem component="div">
@@ -260,7 +256,6 @@ function SidebarMenu() {
                 >
                   Anotate
                 </Button>
-                
               </ListItem>
 
               <ListItem component="div">
@@ -273,10 +268,8 @@ function SidebarMenu() {
                 >
                   Classes
                 </Button>
-                
               </ListItem>
 
-              
               <ListItem component="div">
                 <Button
                 // disableRipple
@@ -287,19 +280,17 @@ function SidebarMenu() {
                 >
                   Documentation
                 </Button>
-                
               </ListItem>
             </List>
           </SubMenuWrapper>
         </List>
         <Divider
-              sx={{
-                mt: theme.spacing(0),
-                mx: theme.spacing(2),
-                background: theme.colors.alpha.trueWhite[10]
-              }}
-            />
-       
+          sx={{
+            mt: theme.spacing(0),
+            mx: theme.spacing(2),
+            background: theme.colors.alpha.trueWhite[10]
+          }}
+        />
       </MenuWrapper>
     </>
   );

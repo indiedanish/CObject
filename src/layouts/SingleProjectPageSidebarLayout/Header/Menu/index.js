@@ -83,29 +83,32 @@ function HeaderMenu() {
       <ListWrapper
         sx={{
           display: {
-            xs: 'none', md: 'block'
+            xs: 'none',
+            md: 'block'
           }
-        }}>
+        }}
+      >
         <List disablePadding component={Box} display="flex">
-
-        <ListItem
+          <ListItem
             classes={{ root: 'MuiListItem-indicators' }}
             button
             component={NavLink}
-            to="/components/buttons"
+            to="/dashboard"
           >
             <ListItemText
-              primaryTypographyProps={{ noWrap: true , fontSize: '20px', marginRight: '8em' }}
-              
+              primaryTypographyProps={{
+                noWrap: true,
+                fontSize: '20px',
+                marginRight: '8em'
+              }}
               primary="C-Object"
-              
             />
           </ListItem>
           <ListItem
             classes={{ root: 'MuiListItem-indicators' }}
             button
             component={NavLink}
-            to="/components/buttons"
+            to="/dashboard"
           >
             <ListItemText
               primaryTypographyProps={{ noWrap: true }}
@@ -117,7 +120,7 @@ function HeaderMenu() {
             classes={{ root: 'MuiListItem-indicators' }}
             button
             component={NavLink}
-            to="/components/buttons"
+            to="/dashboard"
           >
             <ListItemText
               primaryTypographyProps={{ noWrap: true }}
@@ -129,7 +132,7 @@ function HeaderMenu() {
             classes={{ root: 'MuiListItem-indicators' }}
             button
             component={NavLink}
-            to="/components/buttons"
+            to="/dashboard"
           >
             <ListItemText
               primaryTypographyProps={{ noWrap: true }}
@@ -137,12 +140,11 @@ function HeaderMenu() {
             />
           </ListItem>
 
-
           <ListItem
             classes={{ root: 'MuiListItem-indicators' }}
             button
             component={NavLink}
-            to="/components/buttons"
+            to="/dashboard"
           >
             <ListItemText
               primaryTypographyProps={{ noWrap: true }}
@@ -150,23 +152,19 @@ function HeaderMenu() {
             />
           </ListItem>
 
-
-
           <ListItem
             classes={{ root: 'MuiListItem-indicators' }}
             button
             component={NavLink}
-            to="/components/buttons"
+            to="/dashboard"
           >
             <ListItemText
               primaryTypographyProps={{ noWrap: true }}
               primary="Help & Support"
             />
           </ListItem>
-
         </List>
       </ListWrapper>
-      
     </>
   );
 }

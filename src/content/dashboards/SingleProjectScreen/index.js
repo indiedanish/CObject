@@ -111,7 +111,8 @@ function SingleProjectScreen() {
           <div class="container overflow-hidden">
 
             <div class="row gy-5">
-              <div class="col-4 col-sm" >
+             
+            <div class="col-sm-4" >
                 <div class="pl-3 pb-3 border bg-light" style={applicationBoxStyle}>
 
                   <div class="row">
@@ -122,7 +123,7 @@ function SingleProjectScreen() {
                   >
                     Application Name
                   </div>
-                  <div className="row d-flex justify-content-center pb-3">
+                  <div className=" d-flex justify-content-center pb-3">
                     A little description about the project goes here{' '}
                   </div>
                   <div className="row d-flex justify-content-center p-3">
@@ -140,7 +141,7 @@ function SingleProjectScreen() {
                 </div>
               </div>
 
-              <div class="col-4" >
+              <div class="col-sm-4" >
                 <div class="pl-3 pb-3 border bg-light" style={applicationBoxStyle}>
 
                   <div class="row">
@@ -151,37 +152,7 @@ function SingleProjectScreen() {
                   >
                     Application Name
                   </div>
-                  <div className="row d-flex justify-content-center pb-3">
-                    A little description about the project goes here{' '}
-                  </div>
-                  <div className="row d-flex justify-content-center p-3">
-                    <button
-                      type="button"
-                      class="btn btn-outline-dark"
-                      data-mdb-ripple-color="dark"
-                      style={{width: '200px'}}
-                    >
-                      View Details
-                    </button>
-                  </div>
-                  </div>
-
-                </div>
-              </div>
-
-
-              <div class="col-4" >
-                <div class="pl-3 pb-3 border bg-light" style={applicationBoxStyle}>
-
-                  <div class="row">
-
-                  <div
-                    className="row d-flex justify-content-center pt-5 pb-4"
-                    style={{ fontSize: '20px', fontWeight: 'bold' }}
-                  >
-                    Application Name
-                  </div>
-                  <div className="row d-flex justify-content-center pb-3">
+                  <div className=" d-flex justify-content-center pb-3">
                     A little description about the project goes here{' '}
                   </div>
                   <div className="row d-flex justify-content-center p-3">
@@ -200,7 +171,7 @@ function SingleProjectScreen() {
               </div>
 
 
-              <div class="col-4" >
+              <div class="col-sm-4" >
                 <div class="pl-3 pb-3 border bg-light" style={applicationBoxStyle}>
 
                   <div class="row">
@@ -211,7 +182,7 @@ function SingleProjectScreen() {
                   >
                     Application Name
                   </div>
-                  <div className="row d-flex justify-content-center pb-3">
+                  <div className=" d-flex justify-content-center pb-3">
                     A little description about the project goes here{' '}
                   </div>
                   <div className="row d-flex justify-content-center p-3">
@@ -229,7 +200,7 @@ function SingleProjectScreen() {
                 </div>
               </div>
 
-              <div class="col-4" >
+              <div class="col-sm-4" >
                 <div class="pl-3 pb-3 border bg-light" style={applicationBoxStyle}>
 
                   <div class="row">
@@ -240,7 +211,7 @@ function SingleProjectScreen() {
                   >
                     Application Name
                   </div>
-                  <div className="row d-flex justify-content-center pb-3">
+                  <div className=" d-flex justify-content-center pb-3">
                     A little description about the project goes here{' '}
                   </div>
                   <div className="row d-flex justify-content-center p-3">
@@ -258,7 +229,8 @@ function SingleProjectScreen() {
                 </div>
               </div>
 
-              <div class="col-4" >
+
+              <div class="col-sm-4" >
                 <div class="pl-3 pb-3 border bg-light" style={applicationBoxStyle}>
 
                   <div class="row">
@@ -269,7 +241,7 @@ function SingleProjectScreen() {
                   >
                     Application Name
                   </div>
-                  <div className="row d-flex justify-content-center pb-3">
+                  <div className=" d-flex justify-content-center pb-3">
                     A little description about the project goes here{' '}
                   </div>
                   <div className="row d-flex justify-content-center p-3">
@@ -287,6 +259,64 @@ function SingleProjectScreen() {
                 </div>
               </div>
 
+
+              <div class="col-sm-4" >
+                <div class="pl-3 pb-3 border bg-light" style={applicationBoxStyle}>
+
+                  <div class="row">
+
+                  <div
+                    className="row d-flex justify-content-center pt-5 pb-4"
+                    style={{ fontSize: '20px', fontWeight: 'bold' }}
+                  >
+                    Application Name
+                  </div>
+                  <div className=" d-flex justify-content-center pb-3">
+                    A little description about the project goes here{' '}
+                  </div>
+                  <div className="row d-flex justify-content-center p-3">
+                    <button
+                      type="button"
+                      class="btn btn-outline-dark"
+                      data-mdb-ripple-color="dark"
+                      style={{width: '200px'}}
+                    >
+                      View Details
+                    </button>
+                  </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="col-sm-4" >
+                <div class="pl-3 pb-3 border bg-light" style={applicationBoxStyle}>
+
+                  <div class="row">
+
+                  <div
+                    className="row d-flex justify-content-center pt-5 pb-4"
+                    style={{ fontSize: '20px', fontWeight: 'bold' }}
+                  >
+                    Application Name
+                  </div>
+                  <div className=" d-flex justify-content-center pb-3">
+                    A little description about the project goes here{' '}
+                  </div>
+                  <div className="row d-flex justify-content-center p-3">
+                    <button
+                      type="button"
+                      class="btn btn-outline-dark"
+                      data-mdb-ripple-color="dark"
+                      style={{width: '200px'}}
+                    >
+                      View Details
+                    </button>
+                  </div>
+                  </div>
+
+                </div>
+              </div>
 
             </div>
           </div>

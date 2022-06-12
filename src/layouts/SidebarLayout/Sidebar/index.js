@@ -46,15 +46,14 @@ function Sidebar() {
           position: 'fixed',
           left: 0,
           top: theme.header.height,
-     
-          background: "white",
-            
+
+          background: 'white',
+
           boxShadow:
             theme.palette.mode === 'dark' ? theme.sidebar.boxShadow : 'none'
         }}
       >
         <Scrollbar>
-         
           <Divider
             sx={{
               mt: theme.spacing(3),
@@ -82,15 +81,16 @@ function Sidebar() {
       >
         <SidebarWrapper
           sx={{
-            background:
-              theme.palette.mode === 'dark'
-                ? theme.colors.alpha.white[100]
-                : darken(theme.colors.alpha.black[100], 0.5)
+            top: theme.header.height,
+
+            background: 'white',
+
+            boxShadow:
+              theme.palette.mode === 'dark' ? theme.sidebar.boxShadow : 'none'
           }}
         >
           <Scrollbar>
-            <Box mt={3}>
-            </Box>
+            <Box mt={3}></Box>
             <Divider
               sx={{
                 mt: theme.spacing(3),

@@ -92,7 +92,7 @@ function HeaderMenu() {
             classes={{ root: 'MuiListItem-indicators' }}
             button
             component={NavLink}
-            to="/components/buttons"
+            to="/dashboard"
           >
             <ListItemText
               primaryTypographyProps={{ noWrap: true , fontSize: '20px', marginRight: '8em' }}
@@ -105,7 +105,7 @@ function HeaderMenu() {
             classes={{ root: 'MuiListItem-indicators' }}
             button
             component={NavLink}
-            to="/components/buttons"
+            to="/dashboard"
           >
             <ListItemText
               primaryTypographyProps={{ noWrap: true }}
@@ -117,7 +117,7 @@ function HeaderMenu() {
             classes={{ root: 'MuiListItem-indicators' }}
             button
             component={NavLink}
-            to="/components/buttons"
+            to="/dashboard"
           >
             <ListItemText
               primaryTypographyProps={{ noWrap: true }}
@@ -129,7 +129,7 @@ function HeaderMenu() {
             classes={{ root: 'MuiListItem-indicators' }}
             button
             component={NavLink}
-            to="/components/buttons"
+            to="/dashboard"
           >
             <ListItemText
               primaryTypographyProps={{ noWrap: true }}
@@ -142,7 +142,7 @@ function HeaderMenu() {
             classes={{ root: 'MuiListItem-indicators' }}
             button
             component={NavLink}
-            to="/components/buttons"
+            to="/dashboard"
           >
             <ListItemText
               primaryTypographyProps={{ noWrap: true }}
@@ -156,7 +156,7 @@ function HeaderMenu() {
             classes={{ root: 'MuiListItem-indicators' }}
             button
             component={NavLink}
-            to="/components/buttons"
+            to="/dashboard"
           >
             <ListItemText
               primaryTypographyProps={{ noWrap: true }}
